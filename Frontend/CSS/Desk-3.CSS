@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 120px;
+}
+
+.profile a {
+    color: #007bff;
+    text-decoration: none;
+    text-align:justify;
+}
+
+.profile img {
+    height: 50px;
+    align-items: center;
+}
+
+nav {
+    background-color: #003366;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.dashboard {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar-chart {
+    flex: 2;
+    height: 250px;
+    background-color: #dfe4ea;
+    margin-right: 20px;
+}
+
+.total-items {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: #e8f0fe;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.total-items-icon img {
+    height: 100px;
+    margin-right: 20px;
+}
+
+.total-items-text {
+    flex: 1;
+}
+
+.charts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.chart {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart p {
+    margin: 0 0 10px 0;
+}
+
+.chart a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.alert {
+    flex: 1;
+    background-color: #dfe4ea;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.alert p {
+    margin: 0 0 10px 0;
+}
+
+.alert a {
+    color: #007bff;
+    text-decoration: none;
+}

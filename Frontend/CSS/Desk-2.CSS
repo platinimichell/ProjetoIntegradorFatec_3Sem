@@ -1,0 +1,125 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FAF3E0;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    padding: 20px;
+    border-bottom: 2px solid #DDD;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+    align-items: first baseline;
+}
+
+.store-info h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.store-info p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #555;
+}
+
+.back-dashboard {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #D94814;
+    padding: 8px 12px;
+    border-radius: 5px;
+    
+}
+
+.actions button:hover {
+    background-color: #9E350E;}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #002A5E;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.main-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-container h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-content: center;
+    background-color: #E5E5E5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.grid-container button {
+    padding: 15px;
+    background-color: #46387A;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.grid-container button:hover {
+    transform: scale(1.1);
+    background-color: #012340;
+}
+
+.actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.actions button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    background-color: #D94814;
+    transition: background-color 0.3s;
+}
+
+.actions button:hover {
+    background-color: #9E350E;

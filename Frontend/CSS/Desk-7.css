@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #F2F0EB;
+    color: rgb(0, 0, 0);
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 15;
+    background-color: #012340;
+}
+
+nav ul li {
+    margin: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+main {
+    margin-top: 10px;
+}
+
+section.busca {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section.busca label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+section.busca .busca-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+section.busca input {
+    width: 60%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+section.busca button {
+    padding: 8px 16px;
+    background-color: #D94814;
+    color: white;
+    border-color: #000;
+    border-radius: 1px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+section.busca .exportar {
+    background-color: #D94814;
+}
+
+section.busca button:hover {
+    background-color: #9E350E;
+}
+
+.tabela-dinamica {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.placeholder {
+    padding: 50px;
+    border: 2px dashed #ccc;
+    color: #777;
+}
